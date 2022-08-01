@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/nanophate-cci/package-test#readme",
   "publishConfig": {
-    "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
-  }
+    "@nanophate:registry": "https://npm.pkg.github.com"
+  },
 }
