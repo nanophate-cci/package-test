@@ -17,10 +17,10 @@ jobs:
           command: |
               npm config set registry https://npm.pkg.github.com
               npm config set //npm.pkg.github.com/:_authToken ${GH_NPM_TOKEN}
+              # Check whoami
+              npm whoami
+              npm install @nanophate-cci/package-test@1.0.0
           when: on_fail 
-      - run: npm config ls -l
-      - run: npm whoami
-      - run: npm install @nanophate-cci/package-test@1.0.0
 
 
  
